@@ -10,6 +10,7 @@ body {
     align-items: center;
     background-color: #f2ebf3;
     height: 64px;
+    width: 100%;
 }
 
 .container-lista-nav {
@@ -18,7 +19,33 @@ body {
 
 .container-iniciales {
     margin: 0px 10%;
-    
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3.5px solid #90D5FF;
+}
+
+.container-hero {
+    background: linear-gradient(135deg, #5A45A0 0%, #4B79DB 100%);
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main {
+    height: 72%;
+    width: 720px;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.container-btns {
+    display: flex;
+    justify-content: center;
 }
 
 /* Estilos */
@@ -40,4 +67,41 @@ li {
 a {
     color: #4b5563;
     text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin: 24px 0 18px 0;
+}
+
+.texto-profesion {
+    color: #FFFFFFE6;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.texto-aspiracion {
+    color: #FFFFFFCC;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 20px 30px 20px;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.ver-proyectos-btn {
+    padding: 14px 32px;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    margin-right: 20px;
+}
+
+.contactar-btn {
+    padding: 12px 32px;
+    color: #FFFFFF;
+    border: 2px solid;
 }
